@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: pyarm_plugin_description
+    relative_path: urdf/pyarm_plugin_description.urdf
+    xacro_args: "--inorder "
+  SRDF:
+    relative_path: config/pyarm_plugin_description.srdf
+  CONFIG:
+    author_name: Lucas Fernando
+    author_email: lucas.costa@ee.ufcg.edu.br
+    generated_timestamp: 1573637309
